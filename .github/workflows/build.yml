@@ -31,14 +31,5 @@ jobs:
       # 构建程序
       - name: Build Website
         run: npm run build
-      # 部署到阿里云OSS
-      - name: Setup OSS Util
-        uses: manyuanrong/setup-ossutil@v2.0
-        with:
-          endpoint: "oss-cn-hangzhou.aliyuncs.com" # Endpoint 需在阿里云 OSS 控制台获取
-          access-key-id: ${{ secrets.ACCESS_KEY_ID }}
-          access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
-          # 若需要保护密钥可在 Settings => Actions secrets and variables => Actions => Repository secrets 中添加
-          # ACCESS_KEY_ID 和 ACCESS_KEY_SECRET 两个密钥，分别存储阿里云的 Access Key ID 和 Access Key Secret
-      - name: Deploy To OSS
-        run: ossutil cp ./dist oss://yanmosites-dist/ -rf
+      - name: Deploy To tar
+        run: tar -cvf dist.tar ./dist
