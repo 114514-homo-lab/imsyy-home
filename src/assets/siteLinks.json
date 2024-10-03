@@ -2,16 +2,11 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://blog.ymbit.cn/"
-  },
-  {
-    "icon": "Cloud",
-    "name": "AList",
-    "link": "https://alist.ymbit.cn/"
+    "link": "https://blog.sdbit.net.cn/"
   },
   {
     "icon": "LaptopCode",
     "name": "站点监测",
-    "link": "https://status.ymbit.cn/status/ymstatus"
+    "link": "https://status.sdbit.net.cn/"
   }
 ]
