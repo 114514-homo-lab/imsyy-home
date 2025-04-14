@@ -9,6 +9,7 @@ README.md 原文可点击[这里](https://github.com/imsyy/home/blob/dev/README.
 # Changelog
 增加了ftp部署站点 <br>
 在 GitHub Actions 中新增使用 sed 命令更改高德 API 的功能，以保护高德 API 不被泄露。<br>
+增加了企业名 <br>
 
 # 说明
 因 GitHub Actions 的镜像从 windows-latest 更改为 ubuntu-latest，因此`.env.example`自动更改`.env`已失效，因此直接套用原仓库将无法使用。

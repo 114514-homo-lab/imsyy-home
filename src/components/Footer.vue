@@ -26,6 +26,10 @@
           <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
             {{ siteIcp }}
           </a>
+            ,
+           <a v-if="siteEnterpriseName" href="siteUrl" target="_blank">
+            {{ siteEnterpriseName }}
+          </a>
         </span>
         <!--看广告复活备案-->
       </div>
@@ -57,7 +61,7 @@ const startYear = ref(
   import.meta.env.VITE_SITE_START.substring(0, 4) : null
 );
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
-const siteMps = ref(import.meta.env.VITE_SITE_MPS);
+const siteEnterpriseName = ref(import.meta.env.VITE_SITE_EnterpriseName);
 const siteMoe = ref(import.meta.env.VITE_SITE_MOE);
 const siteAuthor = ref(import.meta.env.VITE_SITE_AUTHOR);
 const siteUrl = computed(() => {
