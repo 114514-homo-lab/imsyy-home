@@ -27,7 +27,7 @@
             {{ siteIcp }}
           </a>
             ,
-           <a v-if="siteEnterpriseName" href="siteUrl" target="_blank">
+           <a v-if="siteEnterpriseName">
             {{ siteEnterpriseName }}
           </a>
         </span>
