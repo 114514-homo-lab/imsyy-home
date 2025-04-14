@@ -21,6 +21,13 @@
         <!--    我就改怎么你了   -->
         <!-- 站点备案 -->
         <!-- 我就删你怎么你了 -->
+        <span>
+          &amp;
+          <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
+            {{ siteIcp }}
+          </a>
+        </span>
+        <!--看广告复活备案-->
       </div>
       <div v-else class="lrc">
         <Transition name="fade" mode="out-in">
