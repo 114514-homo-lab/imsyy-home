@@ -16,5 +16,11 @@
     "icon": "/images/icon/email.png",
     "tip": "来封 Email ~",
     "url": "mailto:shadiao@sdbit.net.cn"
+  },
+  {
+    "name": "开往",
+    "icon": "images/icon/travelling.png",
+    "tip": "去其他星球~",
+    "url": "https://www.travellings.cn/plain.html"
   }
 ]
