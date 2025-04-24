@@ -74,7 +74,6 @@ const siteIcon = {
   Cloud,
   LaptopCode,
   Github,
-  MdTrain,
 };
 
 // 链接跳转
