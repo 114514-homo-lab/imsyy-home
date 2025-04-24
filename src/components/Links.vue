@@ -49,6 +49,7 @@ import {
   Cloud,
   LaptopCode,
   Github,
+  MdTrain,
 } from "@vicons/fa"; // 注意使用正确的类别
 import { mainStore } from "@/store";
 import { Swiper, SwiperSlide } from "swiper/vue";
@@ -73,6 +74,7 @@ const siteIcon = {
   Cloud,
   LaptopCode,
   Github,
+  MdTrain,
 };
 
 // 链接跳转
